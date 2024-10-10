@@ -9,6 +9,7 @@ public class SiakadWhile06 {
         jml = input6.nextInt();
 
         while (i < jml) {
+            i++;
             System.out.print("Masukkan nilai mhahasiswa ke-" + (i + 1) + ": ");
             nilai = input6.nextInt();
 
@@ -38,7 +39,6 @@ public class SiakadWhile06 {
             else {
                 System.out.println("Nilai mahasiswa ke-" + (i + 1) + " adalah E");
             }
-            i++;
         }
     }
 }
